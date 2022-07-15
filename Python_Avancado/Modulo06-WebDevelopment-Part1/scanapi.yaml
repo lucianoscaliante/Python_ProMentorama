@@ -1,0 +1,16 @@
+endpoints:
+  - name: Api Módulo 06 curso Python Avançado # nome do que se trata a API
+    path: http://127.0.0.1:8000 # Url da api para ter acesso a ela.
+    requests:
+      - name: root # nome que foi ultilizado no metodo get da api 
+        path: / # diretorio que esse metodo abita e o HOME
+        method: get # metodo get da api
+      - name: operacao #nome dado ao metodo post para fazer a operção da api
+        path: /operacao #diretorio onde o metdo abita na api.
+        method: Post # o metodo post ele manda algumas informação para a api.
+        tests:
+          - name: Apistatus #nome do primeiro teste feito para api
+            assert: ${{resp.ok}} # assert usado para trazer a resposta da api
+          - name: testeResp #nome dado ao segundo teste da api 
+            assert: ${{message["Message"] == "Api conectada"}} #assert usado para trazer a mensagem da api.
+
