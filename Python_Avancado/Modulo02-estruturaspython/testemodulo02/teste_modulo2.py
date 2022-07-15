@@ -1,5 +1,5 @@
 import pytest
-from funcao_luciano.funcaoModulo2 import Fibonacci
+from funcaomodulo02.funcaoModulo2 import Fibonacci
 
 # Classe de teste para a atividade do modulo 02
 

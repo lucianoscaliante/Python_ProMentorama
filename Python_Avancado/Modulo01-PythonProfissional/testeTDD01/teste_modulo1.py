@@ -1,4 +1,4 @@
-from funcao_luciano.funcaoModulo1 import Multiplo
+from funcaomodulo01.funcaoModulo1 import Multiplo
 
 #classe criada para fazer teste unitario do modulo01
 class TesteModulo01:

@@ -1,5 +1,5 @@
 import pytest
-from funcao_luciano.calculadora import soma
+from funcaomodulo01.calculadora import soma
 
 
 class TesteExercicio:

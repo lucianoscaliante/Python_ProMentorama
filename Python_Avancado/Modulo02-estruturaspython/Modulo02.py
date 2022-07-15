@@ -1,4 +1,4 @@
-from funcao_luciano.funcaoModulo2 import Fibonacci
+from funcaomodulo02.funcaoModulo2 import Fibonacci
 
 #class para sequencia de fibonacci
 class Fibonaccii:
